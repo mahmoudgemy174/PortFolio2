@@ -1,63 +1,77 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title> 
-			MY Portfolio Site 
-		</title>
+		<title> MY Portfolio Site </title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet"  href="css/style.css">
 	</head>
 	<body>
-		<section class="header">
-			<div class="myname">
-				<h1> 
-					MAHMOUD GAMAL ABDALLUH
-				</h1>
-				<h3> 
-					FRONT-END NINJA
-				</h3>
-			</div>
-			<div class="logo">
-				<img src="img/logo.png" alt="logo">
-			</div>
-			<hr>
-		</section>
-		<img src="img/contnt.png" alt="contet" class="cont">
-		<section >
-			<ul class="footer"> 
-				<li> 
-					<h1 class="head">
-						Featured Work
-					</h1>
-				</li>
-				<li class="parg">
-					<img src="img/pro1.png" alt="project1">
-					<p class="name">
-					 ARTICLE 
-					</p>
-					<p class="link">
-						https://github.com/mahmoudgemy174/mockup-to-article
-					</p>
-				</li>
-				<li class="parg">
-					<img src="img/pro2.png" alt="project2">
-					<P class="name"> 
-						ANIMAL CARD
-					</P>
-					<p class="link">
-						https://github.com/mahmoudgemy174/fend-animal-trading-cards-master
-					</p>
-				</li>
-				<li class="parg">
-					<img src="img/pro3.png" alt="project3">
-					<P class="name">
-						Portfolio Site
-					</P>
-					<p class ="link"> 
-						https://github.com/mahmoudgemy174/Portfolio
-					</p>
-				</li>
-			</ul>
-		</section>
-	</body>
+	    <div class="grid">
+	      <div class="row"><!-- first row for header and logo-->
+		        <div class="col-2">
+		          <img src="img/logo.png" alt="logo">
+		        </div>
+		        <div class="col-10">
+		          <h1> MAHMOUD GAMAL</h1>
+		          <h3> FRONT-END NINJA</h3>
+		        </div>
+	      </div>
+	      <div class="row"><!--secound row for line between header and rest of page -->
+	        	<div class="col-12"><hr></div>
+	      </div>
+	      <div class="row"><!-- 3rd row for basic Img-->
+		        <div class="col-12">
+		          <img src="img/contnt.png" alt="contet" class="cont">
+		        </div>
+	      </div>
+	      <div class="row"><!-- 4th row for add of my project-->
+		        <div class="col-12">
+		          <h2 >Featured Work</h2>
+		        </div>
+	      </div>
+	      <div class="row"><!--5th row for my projects's Pic-->
+	        <div class="col-4">
+		          <img src="img/pro1.png" alt="project1" class="pro">
+		        </div>
+		        <div class="col-4">
+		          <img src="img/pro2.png" alt="project2" class="pro">
+		        </div>
+		        <div class="col-4">
+		          <img src="img/pro3.png" alt="project3" class="pro">
+		        </div>
+	      </div>
+	      <div class="row"><!--6th row for names for each project-->
+		        <div class="col-4">
+		          <p class="name">ARTICLE </p>
+		        </div>
+		        <div class="col-4">
+		          <P class="name"> ANIMAL CARD</P>
+		        </div>
+		        <div class="col-4">
+		          <P class="name">Portfolio Site</P>
+		        </div>
+	      </div>
+	      <div class="row"><!--7th row for links for each project -->
+		        <div class="col-4">
+		          <p class="link">github.com
+		            /mahmoud
+		            gemy174/
+		            mockup-to
+		          -article</p>
+		        </div>
+		        <div class="col-4">
+		          <p class="link">github.com
+		            /mahmoud
+		            gemy174/
+		            fend-animal
+		            -trading-cards-master</p>
+		        </div>
+		        <div class="col-4">
+		          <p class ="link">github.com
+		            /mahmoud
+		            gemy174/Portfolio</p>
+		        </div>
+	      </div>
+	    </div>
+  </body>
 </html>
